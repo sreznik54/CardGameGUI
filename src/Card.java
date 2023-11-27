@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class Card {
+public class Card {
+    private String suit;
+
+    public Card()
+    {
+        suit = "Diamonds";
+    }
 }
