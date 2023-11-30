@@ -3,8 +3,7 @@ public class Card {
     private String rank;
     private int point;
 
-    public Card(String rank, String suit, int point)
-    {
+    public Card(String rank, String suit, int point) {
         this.suit = suit;
         this.rank = rank;
         this.point = point;

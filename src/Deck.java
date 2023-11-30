@@ -15,32 +15,34 @@ public class Deck {
         cardsLeft = cards.size();
     }
 
-    public boolean isEmpty()
-    {
+    public boolean isEmpty() {
         if(cardsLeft == 0)
         {
             return true;
         }
         return false;
     }
-    public int getCardsLeft()
-    {
+    public int getCardsLeft() {
         return cardsLeft;
     }
 
-    public Card deal()
-    {
+    public Card deal() {
         if(isEmpty())
         {
             shuffle();
         }
+        cardsLeft--;
+        return cards.get(cardsLeft + 1);
     }
 
-    public void shuffle()
-    {
+    public void shuffle() {
+        Card holder;
         for(int i = cards.size() - 1; i > 0; i--)
         {
-
+            int randIndex = (int) (Math.random() * (i - 1));
+            holder = cards.get(i);
+            cards.set(i, cards.get(randIndex));
+            cards.set(randIndex, holder);
         }
     }
 
