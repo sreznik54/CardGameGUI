@@ -32,7 +32,7 @@ public class Deck {
             shuffle();
         }
         cardsLeft--;
-        return cards.get(cardsLeft + 1);
+        return cards.get(cardsLeft);
     }
 
     public void shuffle() {
@@ -46,9 +46,10 @@ public class Deck {
         }
     }
 
-
-
-
-
-
+    @Override
+    public String toString() {
+        return "Deck{" +
+                "cards=" + cards +
+                '}';
+    }
 }
