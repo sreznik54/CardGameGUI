@@ -1,13 +1,17 @@
+import java.awt.*;
+
 public class Card {
     //instance varriables
     private String suit;
     private String rank;
     private int point;
+    private Image c;
     //constructor
-    public Card(String rank, String suit, int point) {
+    public Card(String rank, String suit, int point, Image c) {
         this.suit = suit;
         this.rank = rank;
         this.point = point;
+        this.c = c;
     }
     //gives the point value of a card
     public int getPoint() {
@@ -33,6 +37,15 @@ public class Card {
     public void setSuit(String suit){
         this.suit = suit;
     }
+
+    public Image getCardImage() {
+        return c;
+    }
+
+    public void setC(Image c) {
+        this.c = c;
+    }
+
     //write out the card
     public String toString() {
         return rank + " of " + suit;
