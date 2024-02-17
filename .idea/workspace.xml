@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9960efd-da98-4888-bc05-99b3155f23b2" name="Changes" comment="worked on game class">
-      <change afterPath="$PROJECT_DIR$/src/GameView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e9960efd-da98-4888-bc05-99b3155f23b2" name="Changes" comment="Finished Card Game GUI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +46,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources/Backgrounds" />
       <recent name="$PROJECT_DIR$/Resources" />
     </key>
   </component>
@@ -123,7 +121,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701719644430</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finished Card Game GUI">
+      <option name="closed" value="true" />
+      <created>1708099792938</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708099792938</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Finished Card Game GUI">
+      <option name="closed" value="true" />
+      <created>1708099835151</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708099835151</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -132,6 +146,7 @@
     <MESSAGE value="wrote most of the deck class besides shuflle" />
     <MESSAGE value="finished deck" />
     <MESSAGE value="worked on game class" />
-    <option name="LAST_COMMIT_MESSAGE" value="worked on game class" />
+    <MESSAGE value="Finished Card Game GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Card Game GUI" />
   </component>
 </project>

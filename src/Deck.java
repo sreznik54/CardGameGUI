@@ -10,15 +10,16 @@ public class Deck {
     public Deck(String[] rank, String[] suits, int[] point) {
         cards = new ArrayList<Card>();
         int cardIcon = 1;
-        //makes a card for every suit of card
+        // Makes a card for every suit of card
         for (int i = 0; i < rank.length; i++){
             for (String suit : suits) {
+                // Creates an image for each card and correlates them
                 Image c = new ImageIcon("Resources/Cards/" + cardIcon + ".png").getImage();
                 cards.add(new Card(rank[i], suit, point[i], c));
                 cardIcon++;
             }
         }
-        //adds a card to the number of cards in the deck
+        // Adds a card to the number of cards in the deck
         cardsLeft = cards.size();
     }
     //returns true if the arraylist is empty

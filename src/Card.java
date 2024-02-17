@@ -38,6 +38,7 @@ public class Card {
         this.suit = suit;
     }
 
+    // Returns the image of the card
     public Image getCardImage() {
         return c;
     }
